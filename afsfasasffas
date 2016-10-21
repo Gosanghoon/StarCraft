@@ -1,0 +1,28 @@
+victims���� ���� ��ġ
+-yum install finger-server
+-yum install rusers-server
+
+attacker���� Ŭ���̾�Ʈ ��ġ
+-dnf install finger
+-dnf install rusers
+
+Attacker
+cliend
+
+Victim
+server
+
+dnf install nfs-utils rpcbind
+vi/etc/exports
+
+cd gsh2
+mkdir share1
+
+cd
+root�� �ͼ� mkdir share2
+
+mkdir /home/gsh2/share2
+mkdir root/share1
+vi /etc/exports
+-p 222���� 
+-���� ���丮 ��� ip�ּ�(rw,sync)
